@@ -1,0 +1,172 @@
+22-05-19 12:47:30 [Information] Application is starting
+22-05-19 12:47:38 [Information] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+22-05-19 12:47:39 [Information] Application started. Press Ctrl+C to shut down.
+22-05-19 12:47:39 [Information] Hosting environment: Development
+22-05-19 12:47:39 [Information] Content root path: C:\Users\USER\Documents\Projects\asp.neter\HotelListing
+22-05-19 12:47:39 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger - -
+22-05-19 12:47:39 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-05-19 12:47:39 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger - - - 301 - - 171.9544ms
+22-05-19 12:47:40 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 519.3196ms
+22-05-19 12:47:40 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/swagger-ui-bundle.js - -
+22-05-19 12:47:40 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/swagger-ui.css - -
+22-05-19 12:47:40 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/swagger-ui-standalone-preset.js - -
+22-05-19 12:47:40 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-05-19 12:47:40 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 35.5416ms
+22-05-19 12:47:40 [Information] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+22-05-19 12:47:40 [Information] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+22-05-19 12:47:40 [Information] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+22-05-19 12:47:40 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/swagger-ui.css - - - 200 143943 text/css 120.5754ms
+22-05-19 12:47:40 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/swagger-ui-standalone-preset.js - - - 200 339486 application/javascript 150.5923ms
+22-05-19 12:47:40 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/swagger-ui-bundle.js - - - 200 1095087 application/javascript 369.6452ms
+22-05-19 12:47:41 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-05-19 12:47:41 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/favicon-32x32.png - -
+22-05-19 12:47:41 [Information] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+22-05-19 12:47:41 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/favicon-32x32.png - - - 200 628 image/png 2.5455ms
+22-05-19 12:47:41 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 421.5656ms
+22-05-19 12:52:58 [Information] Application is starting
+22-05-19 12:52:59 [Information] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+22-05-19 12:52:59 [Information] Application started. Press Ctrl+C to shut down.
+22-05-19 12:52:59 [Information] Hosting environment: Development
+22-05-19 12:52:59 [Information] Content root path: C:\Users\USER\Documents\Projects\asp.neter\HotelListing
+22-05-19 12:52:59 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-05-19 12:53:00 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 357.0050ms
+22-05-19 12:53:00 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-05-19 12:53:00 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 8.1034ms
+22-05-19 12:53:01 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-05-19 12:53:01 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 214.3002ms
+22-05-19 19:01:19 [Information] Application is starting
+22-05-19 19:01:20 [Fatal] Application Failed to start
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: HotelListing.Services.IAuthManager Lifetime: Scoped ImplementationType: HotelListing.Services.AuthManager': Unable to resolve service for type 'HotelListing.Models.User' while attempting to activate 'HotelListing.Services.AuthManager'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: HotelListing.Services.IAuthManager Lifetime: Scoped ImplementationType: HotelListing.Services.AuthManager': Unable to resolve service for type 'HotelListing.Models.User' while attempting to activate 'HotelListing.Services.AuthManager'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'HotelListing.Models.User' while attempting to activate 'HotelListing.Services.AuthManager'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at HotelListing.Program.Main(String[] args) in C:\Users\USER\Documents\Projects\asp.neter\HotelListing\Program.cs:line 28
+22-05-19 19:04:03 [Information] Application is starting
+22-05-19 19:04:04 [Fatal] Application Failed to start
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: HotelListing.Services.IAuthManager Lifetime: Scoped ImplementationType: HotelListing.Services.AuthManager': Unable to resolve service for type 'HotelListing.Models.User' while attempting to activate 'HotelListing.Services.AuthManager'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: HotelListing.Services.IAuthManager Lifetime: Scoped ImplementationType: HotelListing.Services.AuthManager': Unable to resolve service for type 'HotelListing.Models.User' while attempting to activate 'HotelListing.Services.AuthManager'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'HotelListing.Models.User' while attempting to activate 'HotelListing.Services.AuthManager'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at HotelListing.Program.Main(String[] args) in C:\Users\USER\Documents\Projects\asp.neter\HotelListing\Program.cs:line 28
+22-05-19 19:04:52 [Information] Application is starting
+22-05-19 19:04:53 [Information] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+22-05-19 19:04:54 [Information] Application started. Press Ctrl+C to shut down.
+22-05-19 19:04:54 [Information] Hosting environment: Development
+22-05-19 19:04:54 [Information] Content root path: C:\Users\USER\Documents\Projects\asp.neter\HotelListing
+22-05-19 19:04:54 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-05-19 19:04:54 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 446.5946ms
+22-05-19 19:04:54 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-05-19 19:04:54 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 31.8560ms
+22-05-19 19:04:54 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-05-19 19:04:55 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 328.3482ms
+22-05-19 19:07:03 [Information] Application is starting
+22-05-19 19:07:05 [Information] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+22-05-19 19:07:05 [Information] Application started. Press Ctrl+C to shut down.
+22-05-19 19:07:05 [Information] Hosting environment: Development
+22-05-19 19:07:05 [Information] Content root path: C:\Users\USER\Documents\Projects\asp.neter\HotelListing
+22-05-19 19:07:05 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-05-19 19:07:05 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 436.8807ms
+22-05-19 19:07:05 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-05-19 19:07:05 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 7.7426ms
+22-05-19 19:07:06 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-05-19 19:07:06 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 202.3415ms
+22-05-19 19:23:06 [Information] Application is starting
+22-05-19 19:23:07 [Information] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+22-05-19 19:23:07 [Information] Application started. Press Ctrl+C to shut down.
+22-05-19 19:23:07 [Information] Hosting environment: Development
+22-05-19 19:23:07 [Information] Content root path: C:\Users\USER\Documents\Projects\asp.neter\HotelListing
+22-05-19 19:23:07 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-05-19 19:23:07 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-05-19 19:23:07 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 391.5665ms
+22-05-19 19:23:07 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 11.2274ms
+22-05-19 19:23:08 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-05-19 19:23:08 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 203.6353ms
+22-05-19 19:24:34 [Information] Application is starting
+22-05-19 19:24:34 [Information] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+22-05-19 19:24:35 [Information] Application started. Press Ctrl+C to shut down.
+22-05-19 19:24:35 [Information] Hosting environment: Development
+22-05-19 19:24:35 [Information] Content root path: C:\Users\USER\Documents\Projects\asp.neter\HotelListing
+22-05-19 19:24:35 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-05-19 19:24:35 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-05-19 19:24:35 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 349.3727ms
+22-05-19 19:24:35 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 10.9082ms
+22-05-19 19:24:36 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-05-19 19:24:36 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 230.8732ms
+22-05-19 19:54:26 [Information] Application is starting
+22-05-19 19:54:28 [Information] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+22-05-19 19:54:28 [Information] Application started. Press Ctrl+C to shut down.
+22-05-19 19:54:28 [Information] Hosting environment: Development
+22-05-19 19:54:28 [Information] Content root path: C:\Users\USER\Documents\Projects\asp.neter\HotelListing
+22-05-19 19:54:28 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-05-19 19:54:29 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-05-19 19:54:29 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 388.8733ms
+22-05-19 19:54:29 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 13.2094ms
+22-05-19 19:54:29 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-05-19 19:54:29 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 390.5314ms
+22-05-19 19:56:01 [Information] Application is starting
+22-05-19 19:56:02 [Information] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+22-05-19 19:56:03 [Information] Application started. Press Ctrl+C to shut down.
+22-05-19 19:56:03 [Information] Hosting environment: Development
+22-05-19 19:56:03 [Information] Content root path: C:\Users\USER\Documents\Projects\asp.neter\HotelListing
+22-05-19 19:56:03 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-05-19 19:56:03 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-05-19 19:56:03 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 345.5339ms
+22-05-19 19:56:03 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 11.3147ms
+22-05-19 19:56:03 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-05-19 19:56:04 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 250.1286ms
+22-05-19 20:13:15 [Information] Application is starting
+22-05-19 20:13:17 [Information] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+22-05-19 20:13:18 [Information] Application started. Press Ctrl+C to shut down.
+22-05-19 20:13:18 [Information] Hosting environment: Development
+22-05-19 20:13:18 [Information] Content root path: C:\Users\USER\Documents\Projects\asp.neter\HotelListing
+22-05-19 20:13:18 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-05-19 20:13:18 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 510.6515ms
+22-05-19 20:13:18 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-05-19 20:13:18 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 18.5126ms
+22-05-19 20:13:20 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-05-19 20:13:20 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 302.4835ms
+22-05-19 22:17:14 [Information] Application is starting
+22-05-19 22:17:15 [Information] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+22-05-19 22:17:16 [Information] Application started. Press Ctrl+C to shut down.
+22-05-19 22:17:16 [Information] Hosting environment: Development
+22-05-19 22:17:16 [Information] Content root path: C:\Users\USER\Documents\Projects\asp.neter\HotelListing
+22-05-19 22:17:16 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-05-19 22:17:16 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 431.2751ms
+22-05-19 22:17:16 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-05-19 22:17:16 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 26.3147ms
+22-05-19 22:17:17 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-05-19 22:17:17 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 388.6744ms
+22-05-19 22:17:19 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-05-19 22:17:19 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 31.0820ms
+22-05-19 22:17:19 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-05-19 22:17:19 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 14.8094ms
+22-05-19 22:17:20 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-05-19 22:17:20 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 35.3241ms

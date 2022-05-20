@@ -1,0 +1,24 @@
+22-04-27 09:09:51 [Information] Application is starting
+22-04-27 09:10:00 [Information] Application started. Press Ctrl+C to shut down.
+22-04-27 09:10:00 [Information] Hosting environment: Development
+22-04-27 09:10:00 [Information] Content root path: C:\Users\USER\Documents\Projects\asp.neter\HotelListing
+22-04-27 09:10:00 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger - -
+22-04-27 09:10:00 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-04-27 09:10:00 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger - - - 301 - - 314.7302ms
+22-04-27 09:10:01 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 498.9467ms
+22-04-27 09:10:01 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/swagger-ui.css - -
+22-04-27 09:10:01 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/swagger-ui-bundle.js - -
+22-04-27 09:10:01 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/swagger-ui-standalone-preset.js - -
+22-04-27 09:10:01 [Information] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+22-04-27 09:10:01 [Information] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+22-04-27 09:10:01 [Information] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+22-04-27 09:10:01 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/swagger-ui.css - - - 200 143943 text/css 77.2158ms
+22-04-27 09:10:01 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/swagger-ui-standalone-preset.js - - - 200 339486 application/javascript 97.8134ms
+22-04-27 09:10:01 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-04-27 09:10:01 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 11.1205ms
+22-04-27 09:10:01 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/swagger-ui-bundle.js - - - 200 1095087 application/javascript 145.7061ms
+22-04-27 09:10:02 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-04-27 09:10:03 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/favicon-32x32.png - -
+22-04-27 09:10:03 [Information] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+22-04-27 09:10:03 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/favicon-32x32.png - - - 200 628 image/png 1.2726ms
+22-04-27 09:10:03 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 334.7237ms

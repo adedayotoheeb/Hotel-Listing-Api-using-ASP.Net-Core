@@ -1,0 +1,98 @@
+22-05-09 09:23:51 [Information] Application is starting
+22-05-09 09:24:08 [Information] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+22-05-09 09:24:10 [Information] Application started. Press Ctrl+C to shut down.
+22-05-09 09:24:10 [Information] Hosting environment: Development
+22-05-09 09:24:10 [Information] Content root path: C:\Users\USER\Documents\Projects\asp.neter\HotelListing
+22-05-09 09:24:10 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-05-09 09:24:11 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 1260.9723ms
+22-05-09 09:24:12 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/swagger-ui.css - -
+22-05-09 09:24:12 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/swagger-ui-bundle.js - -
+22-05-09 09:24:12 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/swagger-ui-standalone-preset.js - -
+22-05-09 09:24:12 [Information] The file /swagger-ui-bundle.js was not modified
+22-05-09 09:24:12 [Information] The file /swagger-ui.css was not modified
+22-05-09 09:24:12 [Information] The file /swagger-ui-standalone-preset.js was not modified
+22-05-09 09:24:12 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/swagger-ui-bundle.js - - - 304 - application/javascript 35.7631ms
+22-05-09 09:24:12 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/swagger-ui-standalone-preset.js - - - 304 - application/javascript 35.5911ms
+22-05-09 09:24:12 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/swagger-ui.css - - - 304 - text/css 53.4319ms
+22-05-09 09:24:12 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-05-09 09:24:12 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 16.3672ms
+22-05-09 09:24:14 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-05-09 09:24:14 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 491.2676ms
+22-05-09 09:27:52 [Information] Application is starting
+22-05-09 09:27:57 [Information] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+22-05-09 09:27:58 [Information] Application started. Press Ctrl+C to shut down.
+22-05-09 09:27:58 [Information] Hosting environment: Development
+22-05-09 09:27:58 [Information] Content root path: C:\Users\USER\Documents\Projects\asp.neter\HotelListing
+22-05-09 09:27:58 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-05-09 09:27:59 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 647.9727ms
+22-05-09 09:27:59 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-05-09 09:27:59 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 23.6132ms
+22-05-09 09:28:01 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-05-09 09:28:01 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 253.2060ms
+22-05-09 09:28:20 [Information] Request starting HTTP/2 GET https://localhost:44342/api/Hotel/1 - -
+22-05-09 09:28:20 [Information] Executing endpoint 'HotelListing.Controllers.HotelController.GetHotelById (HotelListing)'
+22-05-09 09:28:20 [Information] Route matched with {action = "GetHotelById", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotelById(Int32) on controller HotelListing.Controllers.HotelController (HotelListing).
+22-05-09 11:08:32 [Information] Application is starting
+22-05-09 11:08:38 [Information] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+22-05-09 11:08:40 [Information] Application started. Press Ctrl+C to shut down.
+22-05-09 11:08:40 [Information] Hosting environment: Development
+22-05-09 11:08:40 [Information] Content root path: C:\Users\USER\Documents\Projects\asp.neter\HotelListing
+22-05-09 11:08:40 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-05-09 11:08:41 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 1390.2974ms
+22-05-09 11:08:41 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-05-09 11:08:41 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 30.3375ms
+22-05-09 11:08:43 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-05-09 11:08:43 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 312.3735ms
+22-05-09 15:36:34 [Information] Application is starting
+22-05-09 15:36:38 [Information] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+22-05-09 15:36:39 [Information] Application started. Press Ctrl+C to shut down.
+22-05-09 15:36:39 [Information] Hosting environment: Development
+22-05-09 15:36:39 [Information] Content root path: C:\Users\USER\Documents\Projects\asp.neter\HotelListing
+22-05-09 15:36:40 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-05-09 15:36:41 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 986.3786ms
+22-05-09 15:36:41 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-05-09 15:36:41 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 41.2532ms
+22-05-09 15:36:41 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-05-09 15:36:41 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 434.3640ms
+22-05-09 15:40:02 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-05-09 15:40:02 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 122.6618ms
+22-05-09 15:40:02 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-05-09 15:40:02 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 61.5141ms
+22-05-09 15:40:03 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-05-09 15:40:03 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 42.2562ms
+22-05-09 15:40:03 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/favicon-32x32.png - -
+22-05-09 15:40:03 [Information] The file /favicon-32x32.png was not modified
+22-05-09 15:40:03 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/favicon-32x32.png - - - 304 - image/png 23.1811ms
+22-05-09 15:41:51 [Information] Request starting HTTP/2 POST https://localhost:44342/api/Auth/register application/json-patch+json 159
+22-05-09 15:41:51 [Information] CORS policy execution successful.
+22-05-09 15:41:51 [Information] Executing endpoint 'HotelListing.Controllers.AuthController.Register (HotelListing)'
+22-05-09 15:41:51 [Information] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(HotelListing.Dtos.UserDto) on controller HotelListing.Controllers.AuthController (HotelListing).
+22-05-09 15:41:53 [Information] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+22-05-09 15:41:53 [Information] Executed action HotelListing.Controllers.AuthController.Register (HotelListing) in 2019.3612ms
+22-05-09 15:41:53 [Information] Executed endpoint 'HotelListing.Controllers.AuthController.Register (HotelListing)'
+22-05-09 15:41:53 [Information] Request finished HTTP/2 POST https://localhost:44342/api/Auth/register application/json-patch+json 159 - 400 261 application/problem+json;+charset=utf-8 2377.5731ms
+22-05-09 15:43:12 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-05-09 15:43:12 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 65.0222ms
+22-05-09 15:43:12 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-05-09 15:43:12 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 4.3584ms
+22-05-09 15:43:13 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-05-09 15:43:13 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 112.7041ms
+22-05-09 15:43:44 [Information] Request starting HTTP/2 POST https://localhost:44342/api/Auth/register application/json-patch+json 135
+22-05-09 15:43:44 [Information] CORS policy execution successful.
+22-05-09 15:43:44 [Information] Executing endpoint 'HotelListing.Controllers.AuthController.Register (HotelListing)'
+22-05-09 15:43:44 [Information] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(HotelListing.Dtos.UserDto) on controller HotelListing.Controllers.AuthController (HotelListing).
+22-05-09 15:43:44 [Information] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+22-05-09 15:43:44 [Information] Executed action HotelListing.Controllers.AuthController.Register (HotelListing) in 21.9614ms
+22-05-09 15:43:44 [Information] Executed endpoint 'HotelListing.Controllers.AuthController.Register (HotelListing)'
+22-05-09 15:43:44 [Information] Request finished HTTP/2 POST https://localhost:44342/api/Auth/register application/json-patch+json 135 - 400 271 application/problem+json;+charset=utf-8 39.4638ms
+22-05-09 15:48:11 [Information] Application is starting
+22-05-09 15:48:17 [Information] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+22-05-09 15:48:17 [Information] Application started. Press Ctrl+C to shut down.
+22-05-09 15:48:17 [Information] Hosting environment: Development
+22-05-09 15:48:17 [Information] Content root path: C:\Users\USER\Documents\Projects\asp.neter\HotelListing
+22-05-09 15:48:18 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-05-09 15:48:18 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 790.9297ms
+22-05-09 15:48:18 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-05-09 15:48:19 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 111.0003ms
+22-05-09 15:48:19 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-05-09 15:48:20 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 596.2684ms

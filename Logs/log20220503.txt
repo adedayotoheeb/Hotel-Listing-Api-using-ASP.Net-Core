@@ -1,0 +1,19 @@
+22-05-03 15:23:40 [Information] Application is starting
+22-05-03 15:23:46 [Information] Application started. Press Ctrl+C to shut down.
+22-05-03 15:23:46 [Information] Hosting environment: Development
+22-05-03 15:23:46 [Information] Content root path: C:\Users\USER\Documents\Projects\asp.neter\HotelListing
+22-05-03 15:23:46 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/index.html - -
+22-05-03 15:23:47 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/swagger-ui.css - -
+22-05-03 15:23:47 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/index.html - - - 200 - text/html;charset=utf-8 784.1132ms
+22-05-03 15:23:47 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/swagger-ui-bundle.js - -
+22-05-03 15:23:47 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/swagger-ui-standalone-preset.js - -
+22-05-03 15:23:47 [Information] The file /swagger-ui-standalone-preset.js was not modified
+22-05-03 15:23:47 [Information] The file /swagger-ui.css was not modified
+22-05-03 15:23:47 [Information] The file /swagger-ui-bundle.js was not modified
+22-05-03 15:23:47 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/swagger-ui.css - - - 304 - text/css 55.4977ms
+22-05-03 15:23:47 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/swagger-ui-bundle.js - - - 304 - application/javascript 49.0136ms
+22-05-03 15:23:47 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/swagger-ui-standalone-preset.js - - - 304 - application/javascript 40.8694ms
+22-05-03 15:23:47 [Information] Request starting HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - -
+22-05-03 15:23:47 [Information] Request finished HTTP/2 GET https://localhost:44342/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 10.6649ms
+22-05-03 15:23:48 [Information] Request starting HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - -
+22-05-03 15:23:48 [Information] Request finished HTTP/2 GET https://localhost:44342/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 170.3615ms
