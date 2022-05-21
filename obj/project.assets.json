@@ -45,6 +45,18 @@
           "lib/netstandard2.0/JetBrains.Annotations.dll": {}
         }
       },
+      "Marvin.Cache.Headers/6.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Marvin.Cache.Headers.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Marvin.Cache.Headers.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.16": {
         "type": "package",
         "dependencies": {
@@ -2104,6 +2116,21 @@
         "lib/netstandard2.0/JetBrains.Annotations.xml",
         "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.dll",
         "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.xml"
+      ]
+    },
+    "Marvin.Cache.Headers/6.1.0": {
+      "sha512": "XHUeOdMfZrtRHXsWiqRUrebBl4U2SGew8Cr7Y/tHaGfiY/fbajnq4vRt5ktlkUnMebcpfvl8RJjAglu1KxWwYQ==",
+      "type": "package",
+      "path": "marvin.cache.headers/6.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/Marvin.Cache.Headers.dll",
+        "lib/net6.0/Marvin.Cache.Headers.dll",
+        "lib/netcoreapp3.1/Marvin.Cache.Headers.dll",
+        "marvin.cache.headers.6.1.0.nupkg.sha512",
+        "marvin.cache.headers.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.16": {
@@ -7010,6 +7037,7 @@
     "net5.0": [
       "AutoMapper >= 11.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
+      "Marvin.Cache.Headers >= 6.1.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.16",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.16",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 5.0.16",
@@ -7074,6 +7102,10 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[11.0.0, )"
+          },
+          "Marvin.Cache.Headers": {
+            "target": "Package",
+            "version": "[6.1.0, )"
           },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",

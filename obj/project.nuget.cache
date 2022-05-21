@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "08j25SLoR3ajVBOJ4+zGkq54wxFycYG0EWSVNuTY0jcZEr+7TMxjzvae2CfA3b4CyOyxyWImparPbhoSGE/F2w==",
+  "dgSpecHash": "Ae0fGWjd8EP0t4+LjVgnoczmEeUyBeqFJM+fmM8nloHYN2rTZxk+T8ZdhivxIGFXQR2UneVWt09Xrc/9JepqWw==",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\Documents\\Projects\\asp.neter\\HotelListing\\HotelListing.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\USER\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\jetbrains.annotations\\2022.1.0\\jetbrains.annotations.2022.1.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\marvin.cache.headers\\6.1.0\\marvin.cache.headers.6.1.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.16\\microsoft.aspnetcore.authentication.jwtbearer.5.0.16.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.16\\microsoft.aspnetcore.cryptography.internal.5.0.16.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.16\\microsoft.aspnetcore.cryptography.keyderivation.5.0.16.nupkg.sha512",

@@ -33,17 +33,11 @@ namespace HotelListing.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> GetHotels()
         {
-            try
-            {
+            
                 var hotels = await _unitOfWork.Hotels.GetAllAsync();
                 var result = _mapper.Map<IList<HotelDto>>(hotels);
                 return Ok(result);
-            }
-            catch (System.Exception ex)
-            {
-                _logger.LogError(ex, $"Something Went Wrong in the {nameof(GetHotels)}");
-                return StatusCode(500, "Internal Server Eror. Please Try Again Later.");
-            }
+           
         }
 
         [HttpGet("{id:int}", Name = "GetHotel")]
@@ -51,8 +45,7 @@ namespace HotelListing.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> GetHotelById(int id)
         {
-            try
-            {
+            
                 var hotel = await _unitOfWork.Hotels.GetAsync(q => q.Id == id, new List<string> { "Country"});
                 if (hotel == null)
                 {
@@ -61,13 +54,7 @@ namespace HotelListing.Controllers
                 }
                 var result = _mapper.Map<HotelDto>(hotel);
                 return Ok(result);
-            }
-            catch (System.Exception ex)
-            {
-
-                _logger.LogError(ex, $"Something Went Wrong in the {nameof(GetHotelById)}");
-                return StatusCode(500, "Internal Server Eror. Please Try Again Later.");
-            }
+           
         }
         [Authorize(Roles = "Adminstrator")]
         [HttpPost]
@@ -81,20 +68,13 @@ namespace HotelListing.Controllers
                 _logger.LogError($"Inavlid Post attempt in {nameof(CreateHotel)}");
                 return BadRequest(ModelState);
             }
-            try
-            {
+           
                 var hotel = _mapper.Map<Hotel>(hotelDto);
                 await _unitOfWork.Hotels.InsertAsync(hotel);
                 await _unitOfWork.SaveAsync();
 
                 return CreatedAtRoute("GetHotel", new {id = hotel.Id}, hotel);
-            }
-            catch (System.Exception ex)
-            {
-
-                _logger.LogError(ex, $"Something went wrong in the {nameof(CreateHotel)}");
-                return StatusCode(500, "Internal Server Error. Please Try Again Later.");
-            }
+          
 
         }
 
@@ -110,8 +90,7 @@ namespace HotelListing.Controllers
                 _logger.LogError($"Invalida Update attempt in { nameof(UpdateHotel)}");
                 return BadRequest(ModelState);
             }
-            try
-            {
+           
                 var hotel = await _unitOfWork.Hotels.GetAsync(x => x.Id == id);
                 if (hotel == null)
                 {
@@ -123,12 +102,7 @@ namespace HotelListing.Controllers
                 await _unitOfWork.SaveAsync();
 
                 return NoContent();
-            }
-            catch (System.Exception)
-            {
-
-                throw;
-            }
+          
         }
 
         [Authorize]
@@ -143,8 +117,7 @@ namespace HotelListing.Controllers
                 _logger.LogError($"An Invalid delete attempt in {nameof(DeleteHotel)}");
                 return BadRequest("ID should be greater than 1");
             }
-            try
-            {
+            
                 var hotel = await _unitOfWork.Hotels.GetAsync(x => x.Id == id);
                 if (hotel == null)
                 {
@@ -154,14 +127,7 @@ namespace HotelListing.Controllers
                 await _unitOfWork.Hotels.Delete(id);
                 await _unitOfWork.SaveAsync();
                 return NoContent();
-            }
-            catch (System.Exception ex)
-            {
-
-                _logger.LogError(ex, $"An Invalid delete attempt in {nameof(DeleteHotel)}");
-                return StatusCode(500, "internal Server Error . Please try Again Later.");
-            }
-
+           
         }
     }
 }
